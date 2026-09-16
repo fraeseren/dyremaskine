@@ -1,0 +1,56 @@
+body {
+  background-color: lightseagreen;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 850;
+  color: black;
+  font-family: "Futura";
+  text-decoration: underline;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 850;
+  color: black;
+  font-family: "Apple Chancery", sans-serif;
+  font-style: inherit;
+  opacity: 85%;
+}
+
+.text {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#knap {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#search {
+  font-family: futura;
+  color: darkslategray;
+  background-color: antiquewhite;
+  opacity: 0;
+  transition: opacity 1s ease;
+  width: 300px;
+  margin-top: 30px;
+  height: 60px;
+  font-size: larger;
+  margin-bottom: -15px;
+}
+#search,
+#knap {
+  display: block;
+  margin: 30px auto;
+}
+
+#dyr img {
+  width: 400px;
+  max-width: 90%;
+  margin-top: 30px;
+}
